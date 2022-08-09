@@ -1,0 +1,53 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TCS.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="mySkin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">iMaginary</Value>
+    </Setting>
+    <Setting Name="myLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">10, 10</Value>
+    </Setting>
+    <Setting Name="mySize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">1002, 729</Value>
+    </Setting>
+    <Setting Name="connectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CenterNo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">03</Value>
+    </Setting>
+    <Setting Name="CenterCode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CPI</Value>
+    </Setting>
+    <Setting Name="CenterName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Champhai</Value>
+    </Setting>
+    <Setting Name="Contact" Type="System.String" Scope="User">
+      <Value Profile="(Default)">8014999704</Value>
+    </Setting>
+    <Setting Name="Email" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ntcpchamphai@gmail.com</Value>
+    </Setting>
+    <Setting Name="dbPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">root</Value>
+    </Setting>
+    <Setting Name="dbUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">root</Value>
+    </Setting>
+    <Setting Name="dbName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">dtcc</Value>
+    </Setting>
+    <Setting Name="dbServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="dtccConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;server=localhost;user id=root;persistsecurityinfo=True;database=dtcc&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">server=localhost;user id=root;persistsecurityinfo=True;database=dtcc</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

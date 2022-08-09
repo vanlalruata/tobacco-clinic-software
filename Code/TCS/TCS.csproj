@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{92C1A5E6-5E1B-413E-9FCB-0A1FE0B2B69E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TCS</RootNamespace>
+    <AssemblyName>TCS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Maruata\Desktop\TCCS\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>80E00142FB584E457FBDE315721D65922D8C22E5</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TCS_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v15.2" />
+    <Reference Include="DevExpress.Charts.v15.2.Core, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v15.2, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v15.2.UI, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.ExpressApp.Xpo.v15.2, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v15.2.Core, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v15.2.Core, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v15.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v15.2.Core, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Snap.v15.2, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Snap.v15.2.Core, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Snap.v15.2.Extensions, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.2" />
+    <Reference Include="DevExpress.Utils.v15.2.UI, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v15.2, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v15.2" />
+    <Reference Include="DevExpress.Sparkline.v15.2.Core" />
+    <Reference Include="DevExpress.XtraCharts.v15.2, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v15.2.UI, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v15.2.Wizard, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v15.2" />
+    <Reference Include="DevExpress.XtraGauges.v15.2.Core, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v15.2, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v15.2, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v15.2.Extensions, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v15.2, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v15.2.Core, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v15.2, Version=15.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DocX, Version=1.0.0.19, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocX.1.0.0.19\lib\net40\DocX.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppSettings.Designer.cs">
+      <DependentUpon>AppSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CenterInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CenterInfoForm.Designer.cs">
+      <DependentUpon>CenterInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientDetailForm.Designer.cs">
+      <DependentUpon>ClientDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectionString.cs" />
+    <Compile Include="DetailSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DetailSearch.Designer.cs">
+      <DependentUpon>DetailSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FollowUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FollowUp.Designer.cs">
+      <DependentUpon>FollowUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntakeRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntakeRegister.Designer.cs">
+      <DependentUpon>IntakeRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainForm.Designer.cs">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharIssueDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PharIssueDetail.Designer.cs">
+      <DependentUpon>PharIssueDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharmoIssue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PharmoIssue.Designer.cs">
+      <DependentUpon>PharmoIssue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharmoStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PharmoStock.Designer.cs">
+      <DependentUpon>PharmoStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharStockDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PharStockDetail.Designer.cs">
+      <DependentUpon>PharStockDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhysicalProblem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhysicalProblem.Designer.cs">
+      <DependentUpon>PhysicalProblem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintRibbonControllerResources.Designer.cs">
+      <DependentUpon>PrintRibbonControllerResources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReasonToLost.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReasonToLost.Designer.cs">
+      <DependentUpon>ReasonToLost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Severity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Severity.Designer.cs">
+      <DependentUpon>Severity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Substances.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Substances.Designer.cs">
+      <DependentUpon>Substances.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TCCMonthly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TCCMonthly.Designer.cs">
+      <DependentUpon>TCCMonthly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TobaccoUse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TobaccoUse.Designer.cs">
+      <DependentUpon>TobaccoUse.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppSettings.resx">
+      <DependentUpon>AppSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CenterInfoForm.resx">
+      <DependentUpon>CenterInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientDetailForm.resx">
+      <DependentUpon>ClientDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailSearch.resx">
+      <DependentUpon>DetailSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FollowUp.resx">
+      <DependentUpon>FollowUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntakeRegister.resx">
+      <DependentUpon>IntakeRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharIssueDetail.resx">
+      <DependentUpon>PharIssueDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharmoIssue.resx">
+      <DependentUpon>PharmoIssue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharmoStock.resx">
+      <DependentUpon>PharmoStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PharStockDetail.resx">
+      <DependentUpon>PharStockDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhysicalProblem.resx">
+      <DependentUpon>PhysicalProblem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintRibbonControllerResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PrintRibbonControllerResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReasonToLost.resx">
+      <DependentUpon>ReasonToLost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Severity.resx">
+      <DependentUpon>Severity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Substances.resx">
+      <DependentUpon>Substances.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TCCMonthly.resx">
+      <DependentUpon>TCCMonthly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TobaccoUse.resx">
+      <DependentUpon>TobaccoUse.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="bin\Release\intake.docx" />
+    <None Include="bin\Release\TCCReportTemplate.docx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TCS_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="2.ico" />
+    <None Include="Resources\61.png" />
+    <None Include="Resources\database2.png" />
+    <None Include="Resources\database_import1.png" />
+    <None Include="Resources\database_export1.png" />
+    <None Include="Resources\database1.png" />
+    <None Include="Resources\wireless.png" />
+    <None Include="Resources\reply.png" />
+    <None Include="Resources\reload.png" />
+    <None Include="Resources\database_import.png" />
+    <None Include="Resources\database_export.png" />
+    <None Include="Resources\database.png" />
+    <None Include="Resources\backup_server.png" />
+    <None Include="Resources\backup.png" />
+    <None Include="Resources\user_circle.png" />
+    <None Include="Resources\Wrench.png" />
+    <None Include="Resources\WiFi.png" />
+    <None Include="Resources\Water.png" />
+    <None Include="Resources\Warning.png" />
+    <None Include="Resources\Wallet.png" />
+    <None Include="Resources\Volume.png" />
+    <None Include="Resources\Visible.png" />
+    <None Include="Resources\Visa.png" />
+    <None Include="Resources\Video.png" />
+    <None Include="Resources\Users.png" />
+    <None Include="Resources\UserRemove.png" />
+    <None Include="Resources\UserEdit.png" />
+    <None Include="Resources\UserAdd.png" />
+    <None Include="Resources\User.png" />
+    <None Include="Resources\Upload.png" />
+    <None Include="Resources\Unlocked.png" />
+    <None Include="Resources\Umbrella.png" />
+    <None Include="Resources\Tree.png" />
+    <None Include="Resources\TrafficCone.png" />
+    <None Include="Resources\ThumbsUp.png" />
+    <None Include="Resources\ThumbsDown.png" />
+    <None Include="Resources\Syringe.png" />
+    <None Include="Resources\Sword.png" />
+    <None Include="Resources\Sun.png" />
+    <None Include="Resources\Suitcase.png" />
+    <None Include="Resources\Success.png" />
+    <None Include="Resources\Stats.png" />
+    <None Include="Resources\Star.png" />
+    <None Include="Resources\Snow.png" />
+    <None Include="Resources\Sliders.png" />
+    <None Include="Resources\ShutDown.png" />
+    <None Include="Resources\ShoppingCart.png" />
+    <None Include="Resources\ShoppingBasket.png" />
+    <None Include="Resources\Shirt.png" />
+    <None Include="Resources\Share.png" />
+    <None Include="Resources\Settings.png" />
+    <None Include="Resources\Scroll.png" />
+    <None Include="Resources\Savings.png" />
+    <None Include="Resources\Sandglass.png" />
+    <None Include="Resources\Remove.png" />
+    <None Include="Resources\Quote.png" />
+    <None Include="Resources\Prize.png" />
+    <None Include="Resources\Print.png" />
+    <None Include="Resources\PriceTag.png" />
+    <None Include="Resources\Plane.png" />
+    <None Include="Resources\Pizza.png" />
+    <None Include="Resources\Pin.png" />
+    <None Include="Resources\Piano.png" />
+    <None Include="Resources\Pen.png" />
+    <None Include="Resources\News.png" />
+    <None Include="Resources\Mute.png" />
+    <None Include="Resources\Music.png" />
+    <None Include="Resources\Mouse.png" />
+    <None Include="Resources\Money.png" />
+    <None Include="Resources\Mobile.png" />
+    <None Include="Resources\Microphone.png" />
+    <None Include="Resources\Message.png" />
+    <None Include="Resources\MedalSilver.png" />
+    <None Include="Resources\MedalGold.png" />
+    <None Include="Resources\MedalBronze.png" />
+    <None Include="Resources\MasterCard.png" />
+    <None Include="Resources\Male.png" />
+    <None Include="Resources\Mail.png" />
+    <None Include="Resources\Magnifier.png" />
+    <None Include="Resources\Locked.png" />
+    <None Include="Resources\Location.png" />
+    <None Include="Resources\Lightning.png" />
+    <None Include="Resources\Lightbulb.png" />
+    <None Include="Resources\Keyboard.png" />
+    <None Include="Resources\Key.png" />
+    <None Include="Resources\Joystick.png" />
+    <None Include="Resources\Joypad.png" />
+    <None Include="Resources\Jewel.png" />
+    <None Include="Resources\Invisible.png" />
+    <None Include="Resources\Info.png" />
+    <None Include="Resources\Image.png" />
+    <None Include="Resources\Home.png" />
+    <None Include="Resources\Heart.png" />
+    <None Include="Resources\Headphones.png" />
+    <None Include="Resources\Hamburger.png" />
+    <None Include="Resources\Gun.png" />
+    <None Include="Resources\Glasses.png" />
+    <None Include="Resources\Football.png" />
+    <None Include="Resources\Food.png" />
+    <None Include="Resources\Folder.png" />
+    <None Include="Resources\Flower.png" />
+    <None Include="Resources\FlagYellow.png" />
+    <None Include="Resources\FlagRed.png" />
+    <None Include="Resources\FlagGreen.png" />
+    <None Include="Resources\FlagBlue.png" />
+    <None Include="Resources\Fish.png" />
+    <None Include="Resources\Fire.png" />
+    <None Include="Resources\Female.png" />
+    <None Include="Resources\Experiment.png" />
+    <None Include="Resources\Exit.png" />
+    <None Include="Resources\Enter.png" />
+    <None Include="Resources\Earth.png" />
+    <None Include="Resources\Drink.png" />
+    <None Include="Resources\Download.png" />
+    <None Include="Resources\Dollar.png" />
+    <None Include="Resources\DocumentEdit.png" />
+    <None Include="Resources\Document.png" />
+    <None Include="Resources\Diskette.png" />
+    <None Include="Resources\Dashboard.png" />
+    <None Include="Resources\Cut.png" />
+    <None Include="Resources\Cup.png" />
+    <None Include="Resources\Crown.png" />
+    <None Include="Resources\Couch.png" />
+    <None Include="Resources\Copy.png" />
+    <None Include="Resources\Controls.png" />
+    <None Include="Resources\Computer.png" />
+    <None Include="Resources\Cloud.png" />
+    <None Include="Resources\Clock.png" />
+    <None Include="Resources\Clipboard.png" />
+    <None Include="Resources\City.png" />
+    <None Include="Resources\ChartPie.png" />
+    <None Include="Resources\ChartBar.png" />
+    <None Include="Resources\Character.png" />
+    <None Include="Resources\Cassette.png" />
+    <None Include="Resources\Cargo.png" />
+    <None Include="Resources\Car.png" />
+    <None Include="Resources\Cancel.png" />
+    <None Include="Resources\Camera.png" />
+    <None Include="Resources\Calendar.png" />
+    <None Include="Resources\Bus.png" />
+    <None Include="Resources\Brush.png" />
+    <None Include="Resources\Bookmark.png" />
+    <None Include="Resources\Book.png" />
+    <None Include="Resources\Boat.png" />
+    <None Include="Resources\Bin.png" />
+    <None Include="Resources\BatteryLow.png" />
+    <None Include="Resources\BatteryHalf.png" />
+    <None Include="Resources\BatteryFull.png" />
+    <None Include="Resources\BatteryDead.png" />
+    <None Include="Resources\Basketball.png" />
+    <None Include="Resources\Bank.png" />
+    <None Include="Resources\Auction.png" />
+    <None Include="Resources\Attach.png" />
+    <None Include="Resources\Archive.png" />
+    <None Include="Resources\Application.png" />
+    <None Include="Resources\Announcement.png" />
+    <None Include="Resources\Alarm.png" />
+    <None Include="Resources\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MySqlBackup\MySqlBackup.csproj">
+      <Project>{2625a6b7-505a-43f7-9282-24afe5a3db64}</Project>
+      <Name>MySqlBackup</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
